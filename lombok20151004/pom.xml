@@ -35,6 +35,7 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.3</version>
         <configuration>
+          <compilerVersion>${java.version}</compilerVersion>
           <source>${java.version}</source>
           <target>${java.version}</target>
           <encoding>UTF-8</encoding>

@@ -30,10 +30,10 @@ public class HandsOn21 {
 
 class Extentions {
   public static String measure(Integer left, Integer right) {
-    if (left.intValue() == right.intValue()) {
+    if (left.equals(right)) {
       return "Drow!";
     }
-    if (left.intValue() > right.intValue()) {
+    if (left > right) {
       return "A is Bigger!";
     }
     return "B is Bigger!";

@@ -18,9 +18,6 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class App {
 
-  /**
-   * 処理の開始
-   */
   public static void main(String[] args) {
     val cats = makeTestData();
 

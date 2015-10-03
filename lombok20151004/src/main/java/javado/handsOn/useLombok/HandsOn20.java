@@ -27,7 +27,7 @@ import lombok.extern.slf4j.Slf4j;
 public class HandsOn20 {
 
   @Getter(onMethod = @__(@Deprecated))
-  private String name;
+  private final String name;
 
   public static void main(String[] args) {
     val target = new HandsOn20("JavaDo");

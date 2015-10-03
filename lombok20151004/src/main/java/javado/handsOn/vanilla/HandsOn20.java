@@ -13,7 +13,7 @@ import lombok.extern.slf4j.Slf4j;
 public class HandsOn20 {
 
   // TODO: lombok.Getter アノテーション (onMethod = @__(@Deprecated))
-  private String name;
+  private final String name;
 
   // TODO: コンストラクタを削除
   @Deprecated

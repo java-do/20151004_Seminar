@@ -28,12 +28,12 @@ public class HandsOn13 {
 
   // TODO: メソッド削除
   public HandsOn13 withName(String name) {
-    return this.name == name ? this : new HandsOn13(name, state);
+    return this.name.equals(name) ? this : new HandsOn13(name, state);
   }
 
   // TODO: メソッド削除
   public HandsOn13 withState(String state) {
-    return this.state == state ? this : new HandsOn13(name, state);
+    return this.state.equals(state) ? this : new HandsOn13(name, state);
   }
 
   public static void main(String[] args) {
