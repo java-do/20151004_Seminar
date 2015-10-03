@@ -10,9 +10,9 @@ import lombok.extern.slf4j.Slf4j;
  * <dt>Dataに含まれるlombokアノテーション</dt>
  * <dd>ToString</dd>
  * <dd>EqualsAndHashCode</dd>
+ * <dd>RequiredArgsConstructor</dd>
  * <dd>Getter</dd>
  * <dd>Setter</dd>
- * <dd>RequiredArgsConstructor</dd>
  * </dl>
  */
 @Slf4j
