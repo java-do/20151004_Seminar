@@ -15,9 +15,7 @@ Java DOでしょう #02
 ### サブハンズオン（lombok）
 
 1. https://github.com/java-do/20151004_seminar を表示し、画面右下の “Download Zip” からzipダウンロードして展開する
-2. **【Eclipseの人だけ】**
-[Project Lombok](https://projectlombok.org/) から lombok.jar をダウンロードしてインストール
-（インストール方法：[yyoshikaw(2014) Lombok -Qiita](http://qiita.com/yyoshikaw/items/32a96332cc12854ca7a3)）
+2. **【Eclipseの人だけ】** [Project Lombok](https://projectlombok.org/) から lombok.jar 1.16.6 をダウンロードしてインストール （インストール方法：[yyoshikaw(2014) Lombok -Qiita](http://qiita.com/yyoshikaw/items/32a96332cc12854ca7a3)）
 3. 1で展開した 20151004_seminar フォルダの中の lombok20151004 プロジェクトをIDEで開く
   - 【NetBeans】
     - ファイル ＞ プロジェクトを開く で lombok20151004 を選択
